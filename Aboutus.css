@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    .banner{
+    width: 100%;
+    height: 36vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(chicken.jpg);
+    background-size:42%;
+    background-position:center;
+    }
+    .purple{
+         color:aliceblue;
+         font-family: Papyrus,fantasy;
+    
+    }
+    .texture{
+        width:87%;
+        margin:auto;
+        padding:35px 0;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        font-family:sans-serif;
+        color:antiquewhite;
+    }
+    .texture ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position:relative;
+    } 
+    .texture ul li a{
+        text-decoration: none;
+        color:white;
+        text-transform: uppercase;
+    }
+    .texture ul li::after{
+        content:'';
+        height: 3px;
+        width: 0%;
+        background: #009688;
+        position:absolute;
+        left: 0;
+        bottom:-10px;
+        transition:0.8s;
+    }
+    .texture ul li:hover::after{
+        width: 100%;
+    }
+    .content{
+        background: rgb(0,212,255);
+        background: linear-gradient(90deg, rgba(0,212,255,1) 4%, rgba(255,245,215,1) 13%);
+        width:100%;
+        height:56.8vh;
+        padding-top:50px;
+    }
+    .texture1{
+        
+        margin-left:15%;
+        width: 80%;
+        padding-left:20px;
+        color:black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-left: 6px solid goldenrod;
+        height:100px;
+        text-align:justify;
+        font-size: 20px;
+    }
+    
+    .bid{
+        margin-top:175px;
+        margin-left:74%;
+        font-family: Great Vibes;
+        font-size: 37px;
+        color:black;
+    }
+    
